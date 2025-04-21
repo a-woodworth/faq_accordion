@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/faq-accordion-DAY_oXxMMH)
 - Live Site URL: [Live Site](https://a-woodworth.github.io/faq_accordion)
 
 ### Built with
