@@ -154,6 +154,7 @@ details p {
 .accordion {
   background-color: var(--white);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   margin-block-start: var(--spacing-800);
   margin-inline: auto;
   max-width: 20.5rem;
