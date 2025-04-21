@@ -216,7 +216,7 @@ details p {
   .accordion {
     border-radius: var(--radius-m);
     margin-block-start: var(--spacing-1000);
-    max-width: 37.5rem;
+    max-width: 32rem;
     padding-block: var(--spacing-300);
     padding-inline: var(--spacing-300);
   }
