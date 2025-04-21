@@ -114,7 +114,7 @@ summary:hover {
 summary::marker {
   content: none;
 }
-
+/* Remove marker Safari */
 summary::-webkit-details-marker {
   display: none;
 }
@@ -138,6 +138,7 @@ details {
 
 details:last-child {
   border-bottom: none;
+  padding-block-end: 0;
 }
 
 details p {
@@ -166,6 +167,11 @@ details p {
   padding-block-end: 0.25rem;
 }
 
+.accordion-header img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 .main-footer {
   color: var(--purple-950);
   padding-block-start: var(--spacing-200);
@@ -180,4 +186,43 @@ details p {
 
 .wrapper {
   padding-inline: var(--spacing-150);
+}
+
+@media (min-width: 62.5rem) {
+  body::before {
+    background-image: url('assets/images/background-pattern-desktop.svg');
+    height: 20rem;
+  }
+
+  h1 {
+    font-size: var(--text-xl);
+  }
+
+  summary {
+    font-size: var(--text-m);
+  }
+
+  details {
+    padding-block: var(--spacing-150);
+  }
+
+  details p {
+    font-size: var(--text-s);
+  }
+
+  .accordion {
+    margin-block-start: var(--spacing-1000);
+    max-width: 37.5rem;
+    padding-block: var(--spacing-300);
+    padding-inline: var(--spacing-300);
+  }
+
+  .accordion-header {
+    padding-block-end: 0.5rem;
+  }
+
+  .accordion-header img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 }
