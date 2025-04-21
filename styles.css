@@ -32,7 +32,8 @@
   --link-hover: hsl(281 80% 53%);
 
   /* Border, Radius, Shadow */
-  --radius: 0.5rem;
+  --radius-s: 0.5rem;
+  --radius-m: 1rem;
   --shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
   --stroke-width: 1px;
 
@@ -153,7 +154,7 @@ details p {
 
 .accordion {
   background-color: var(--white);
-  border-radius: var(--radius);
+  border-radius: var(--radius-s);
   box-shadow: var(--shadow);
   margin-block-start: var(--spacing-800);
   margin-inline: auto;
@@ -213,6 +214,7 @@ details p {
   }
 
   .accordion {
+    border-radius: var(--radius-m);
     margin-block-start: var(--spacing-1000);
     max-width: 37.5rem;
     padding-block: var(--spacing-300);
