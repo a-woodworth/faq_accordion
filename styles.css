@@ -106,7 +106,8 @@ summary {
   align-items: center;
 }
 
-summary:hover {
+summary:hover,
+summary:focus {
   color: var(--purple-500);
   cursor: pointer;
 }
