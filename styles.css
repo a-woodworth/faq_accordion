@@ -158,7 +158,7 @@ details p {
   box-shadow: var(--shadow);
   margin-block-start: var(--spacing-800);
   margin-inline: auto;
-  max-width: 20.5rem;
+  max-width: 17.5rem;
   padding-block: var(--spacing-150);
   padding-inline: var(--spacing-150);
 }
